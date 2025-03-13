@@ -1,0 +1,16 @@
+{
+    "header":{
+        "iconDown":"[aria-label='icon: fl-chevron-down']",
+        "logoutButton": "li[data-qa-id='logout-button']"
+
+    },
+    "login":{
+        "email":"input[data-qa-id='email-field']",
+        "password":"input[data-qa-id='password-field']",
+        "submit":"button[data-qa-id='login-button']",
+        "showPassword": ".ant-input-suffix > .anticon"
+    },
+    "dashboard":{
+        "craeteProject": "[data-qa-id='item--create']"
+    }
+}

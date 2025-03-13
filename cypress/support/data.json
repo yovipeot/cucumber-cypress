@@ -1,0 +1,26 @@
+{
+    "login":{
+        "valid":{
+            "email": "qa.automation@feedloop.ai",
+            "password": "12qwaszX!"
+        },
+        "invalid":{
+            "email": "test@gmail.com",
+            "password": "test13321"
+        },
+        "errorMessage":{
+            "incorrect":"Incorrect email-password combination",
+            "otp":"OTP does not match",
+            "otpExpired": "OTP is expired"
+        },
+        "successMessage":{
+            "recover": "Please check your email"
+        }
+    },
+
+    "dashboard":{
+        "greeting": "Welcome back to",
+        "createProject": "Create new project",
+        "url": "/projects"
+    }
+}
