@@ -1,0 +1,19 @@
+{
+    
+    "name": "cxp-cypress-cucumber",
+    "version": "1.0.0",
+    "main": "cypress.config.js",
+    "scripts": {
+        
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "cypress-cucumber-preprocessor": "^4.3.1",
+        "prettier": "^3.3.3"
+    },
+    "cypress-cucumber-preprocessor": {
+        "nonGlobalStepDefinitions": false
+    }
+}
